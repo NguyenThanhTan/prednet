@@ -4,12 +4,14 @@
 
 name: prednet
 
-dependencies:
-  - python=2.7
+channels:
+  - defaults
 
+dependencies:
+  - python=3.6.13
+  - keras==2.2.4
+  - tensorflow-gpu==1.12.0
+  - matplotlib
+  - pandas
   - pip:
-    - keras==2.0.6
-    - theano==0.9.0
-    - tensorflow-gpu==1.2.1
-    - hickle==2.1.0
-    - matplotlib
+    - hickle==3.4.5
