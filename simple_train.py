@@ -1,5 +1,5 @@
 '''
-Train PredNet on KITTI sequences. (Geiger et al. 2013, http://www.cvlibs.net/datasets/kitti/)
+Train PredNet on Generated sequences.
 '''
 
 import os
